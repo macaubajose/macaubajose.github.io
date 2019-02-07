@@ -1,0 +1,27 @@
+  
+  body {
+    color: purple;
+    background-color: #FFFFF0 }
+.menu{
+    	
+    	font-family: "trebuchet MS", Helvetica, sans-serif;
+    	font-size: 15px;
+    	padding: 05px;
+        background-color: rgba(0,0,0,0);
+    }
+    a:hover{
+    	background: #00ff00;
+        color: #000000;
+    }
+    
+.rodape {
+            background: linear-gradient(to top right , #FFEBCD, #FFE4C4);
+            clear:both;
+            text-align:center; 
+        position: fixed;
+        bottom: 0;
+            width: 100%;
+        }
+
+
+    
