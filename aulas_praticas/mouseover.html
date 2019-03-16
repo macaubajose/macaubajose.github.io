@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>mouseover demo</title>
+  <style>
+  div.out {
+    width: 40%;
+    height: 120px;
+    margin: 0 15px;
+    background-color: #9ACD32;
+    float: left;
+  }
+  
+  
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+ 
+<div class="out overout">
+  <span>move your mouse</span>
+  
+</div>
+ 
+
+ 
+<script>
+var i = 0;
+$( "div.overout" )
+  .mouseover(function() {
+    i += 1;
+    $( this ).find( "span" ).text( "mouse over x " + i );
+  })
+  .mouseout(function() {
+    $( this ).find( "span" ).text( "mouse out " );
+  });
+ 
+
+</script>
+ 
+</body>
+</html>
